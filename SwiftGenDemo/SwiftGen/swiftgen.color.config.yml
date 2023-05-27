@@ -8,11 +8,4 @@ xcassets:
       params:
         publicAccess: true
       output: color.generated.swift
-xcassets:
-  inputs:
-    - Assets.xcassets
-  outputs:
-    - templatePath: ${PROJECT_DIR}/SwiftGenDemo/SwiftGen/imageTemplate.stencil
-      params:
-        publicAccess: true
-      output: image.generated.swift
+

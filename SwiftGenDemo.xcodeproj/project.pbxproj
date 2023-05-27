@@ -13,12 +13,13 @@
 		B2B8C1BB2A21F6EC0031238E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B8C1B92A21F6EC0031238E /* Main.storyboard */; };
 		B2B8C1BD2A21F6EE0031238E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2B8C1BC2A21F6EE0031238E /* Assets.xcassets */; };
 		B2B8C1C02A21F6EE0031238E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B8C1BE2A21F6EE0031238E /* LaunchScreen.storyboard */; };
-		B2B8C1C92A21FA9B0031238E /* swiftgen.config.yml in Resources */ = {isa = PBXBuildFile; fileRef = B2B8C1C82A21FA9B0031238E /* swiftgen.config.yml */; };
+		B2B8C1C92A21FA9B0031238E /* swiftgen.image.config.yml in Resources */ = {isa = PBXBuildFile; fileRef = B2B8C1C82A21FA9B0031238E /* swiftgen.image.config.yml */; };
 		B2B8C1CB2A21FC550031238E /* imageTemplate.stencil in Sources */ = {isa = PBXBuildFile; fileRef = B2B8C1CA2A21FC550031238E /* imageTemplate.stencil */; };
 		B2B8C1D02A22031B0031238E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2B8C1CF2A22031B0031238E /* Colors.xcassets */; };
 		B2B8C1D62A2209910031238E /* image.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B8C1D52A2209910031238E /* image.generated.swift */; };
 		B2B8C1D82A220BCF0031238E /* colorTemplate.stencil in Sources */ = {isa = PBXBuildFile; fileRef = B2B8C1D72A220BCF0031238E /* colorTemplate.stencil */; };
 		B2B8C1DA2A220C400031238E /* color.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B8C1D92A220C400031238E /* color.generated.swift */; };
+		B2B8C1DC2A2212E90031238E /* swiftgen.color.config.yml in Resources */ = {isa = PBXBuildFile; fileRef = B2B8C1DB2A2212E90031238E /* swiftgen.color.config.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,12 +31,13 @@
 		B2B8C1BC2A21F6EE0031238E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2B8C1BF2A21F6EE0031238E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2B8C1C12A21F6EE0031238E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2B8C1C82A21FA9B0031238E /* swiftgen.config.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.config.yml; sourceTree = "<group>"; };
+		B2B8C1C82A21FA9B0031238E /* swiftgen.image.config.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.image.config.yml; sourceTree = "<group>"; };
 		B2B8C1CA2A21FC550031238E /* imageTemplate.stencil */ = {isa = PBXFileReference; lastKnownFileType = text; path = imageTemplate.stencil; sourceTree = "<group>"; };
 		B2B8C1CF2A22031B0031238E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		B2B8C1D52A2209910031238E /* image.generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = image.generated.swift; sourceTree = "<group>"; };
 		B2B8C1D72A220BCF0031238E /* colorTemplate.stencil */ = {isa = PBXFileReference; lastKnownFileType = text; path = colorTemplate.stencil; sourceTree = "<group>"; };
 		B2B8C1D92A220C400031238E /* color.generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = color.generated.swift; sourceTree = "<group>"; };
+		B2B8C1DB2A2212E90031238E /* swiftgen.color.config.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.color.config.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +86,8 @@
 		B2B8C1C72A21FA750031238E /* SwiftGen */ = {
 			isa = PBXGroup;
 			children = (
-				B2B8C1C82A21FA9B0031238E /* swiftgen.config.yml */,
+				B2B8C1C82A21FA9B0031238E /* swiftgen.image.config.yml */,
+				B2B8C1DB2A2212E90031238E /* swiftgen.color.config.yml */,
 				B2B8C1CA2A21FC550031238E /* imageTemplate.stencil */,
 				B2B8C1D72A220BCF0031238E /* colorTemplate.stencil */,
 				B2B8C1D52A2209910031238E /* image.generated.swift */,
@@ -155,7 +158,8 @@
 				B2B8C1D02A22031B0031238E /* Colors.xcassets in Resources */,
 				B2B8C1C02A21F6EE0031238E /* LaunchScreen.storyboard in Resources */,
 				B2B8C1BD2A21F6EE0031238E /* Assets.xcassets in Resources */,
-				B2B8C1C92A21FA9B0031238E /* swiftgen.config.yml in Resources */,
+				B2B8C1DC2A2212E90031238E /* swiftgen.color.config.yml in Resources */,
+				B2B8C1C92A21FA9B0031238E /* swiftgen.image.config.yml in Resources */,
 				B2B8C1BB2A21F6EC0031238E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,7 +183,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftgen >/dev/null; then\n  swiftgen config run --config SwiftGenDemo/SwiftGen/swiftgen.config.yml\nelse\n  echo \"warning: SwiftGen not installed, download it from https://github.com/SwiftGen/SwiftGen\"\nfi\n";
+			shellScript = "if which swiftgen >/dev/null; then\n  swiftgen config run --config SwiftGenDemo/SwiftGen/swiftgen.image.config.yml\n  swiftgen config run --config SwiftGenDemo/SwiftGen/swiftgen.color.config.yml\n\nelse\n  echo \"warning: SwiftGen not installed, download it from https://github.com/SwiftGen/SwiftGen\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
