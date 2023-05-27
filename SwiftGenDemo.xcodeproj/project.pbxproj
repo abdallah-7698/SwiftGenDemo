@@ -20,6 +20,8 @@
 		B2B8C1D82A220BCF0031238E /* colorTemplate.stencil in Sources */ = {isa = PBXBuildFile; fileRef = B2B8C1D72A220BCF0031238E /* colorTemplate.stencil */; };
 		B2B8C1DA2A220C400031238E /* color.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B8C1D92A220C400031238E /* color.generated.swift */; };
 		B2B8C1DC2A2212E90031238E /* swiftgen.color.config.yml in Resources */ = {isa = PBXBuildFile; fileRef = B2B8C1DB2A2212E90031238E /* swiftgen.color.config.yml */; };
+		B2B8C1E02A2215100031238E /* swiftgen.config.yml in Resources */ = {isa = PBXBuildFile; fileRef = B2B8C1DF2A2215100031238E /* swiftgen.config.yml */; };
+		B2B8C1E22A2215650031238E /* template.stencil in Sources */ = {isa = PBXBuildFile; fileRef = B2B8C1E12A2215650031238E /* template.stencil */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		B2B8C1D72A220BCF0031238E /* colorTemplate.stencil */ = {isa = PBXFileReference; lastKnownFileType = text; path = colorTemplate.stencil; sourceTree = "<group>"; };
 		B2B8C1D92A220C400031238E /* color.generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = color.generated.swift; sourceTree = "<group>"; };
 		B2B8C1DB2A2212E90031238E /* swiftgen.color.config.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.color.config.yml; sourceTree = "<group>"; };
+		B2B8C1DF2A2215100031238E /* swiftgen.config.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.config.yml; sourceTree = "<group>"; };
+		B2B8C1E12A2215650031238E /* template.stencil */ = {isa = PBXFileReference; lastKnownFileType = text; path = template.stencil; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +90,11 @@
 		B2B8C1C72A21FA750031238E /* SwiftGen */ = {
 			isa = PBXGroup;
 			children = (
+				B2B8C1DF2A2215100031238E /* swiftgen.config.yml */,
+				B2B8C1E12A2215650031238E /* template.stencil */,
 				B2B8C1C82A21FA9B0031238E /* swiftgen.image.config.yml */,
-				B2B8C1DB2A2212E90031238E /* swiftgen.color.config.yml */,
 				B2B8C1CA2A21FC550031238E /* imageTemplate.stencil */,
+				B2B8C1DB2A2212E90031238E /* swiftgen.color.config.yml */,
 				B2B8C1D72A220BCF0031238E /* colorTemplate.stencil */,
 				B2B8C1D52A2209910031238E /* image.generated.swift */,
 				B2B8C1D92A220C400031238E /* color.generated.swift */,
@@ -161,6 +167,7 @@
 				B2B8C1DC2A2212E90031238E /* swiftgen.color.config.yml in Resources */,
 				B2B8C1C92A21FA9B0031238E /* swiftgen.image.config.yml in Resources */,
 				B2B8C1BB2A21F6EC0031238E /* Main.storyboard in Resources */,
+				B2B8C1E02A2215100031238E /* swiftgen.config.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +204,7 @@
 				B2B8C1CB2A21FC550031238E /* imageTemplate.stencil in Sources */,
 				B2B8C1DA2A220C400031238E /* color.generated.swift in Sources */,
 				B2B8C1D62A2209910031238E /* image.generated.swift in Sources */,
+				B2B8C1E22A2215650031238E /* template.stencil in Sources */,
 				B2B8C1B42A21F6EC0031238E /* AppDelegate.swift in Sources */,
 				B2B8C1B62A21F6EC0031238E /* SceneDelegate.swift in Sources */,
 			);

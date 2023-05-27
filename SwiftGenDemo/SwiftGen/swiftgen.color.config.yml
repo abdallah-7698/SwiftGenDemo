@@ -1,3 +1,6 @@
+
+#  swiftgen config run --config SwiftGenDemo/SwiftGen/swiftgen.color.config.yml
+
 input_dir: ${PROJECT_DIR}/SwiftGenDemo
 output_dir: ${PROJECT_DIR}/SwiftGenDemo/SwiftGen
 xcassets:

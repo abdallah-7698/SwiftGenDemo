@@ -1,0 +1,14 @@
+
+#  swiftgen config run --config SwiftGenDemo/SwiftGen/swiftgen.config.yml
+  
+input_dir: ${PROJECT_DIR}/SwiftGenDemo
+output_dir: ${PROJECT_DIR}/SwiftGenDemo/SwiftGen
+xcassets:
+  inputs:
+    - Assets.xcassets
+    - Colors.xcassets
+  outputs:
+    - templatePath: ${PROJECT_DIR}/SwiftGenDemo/SwiftGen/template.stencil
+      params:
+        publicAccess: false
+      output: Assets.generated.swift
