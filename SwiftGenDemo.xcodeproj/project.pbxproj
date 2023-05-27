@@ -11,7 +11,7 @@
 		B2B8C1B62A21F6EC0031238E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B8C1B52A21F6EC0031238E /* SceneDelegate.swift */; };
 		B2B8C1B82A21F6EC0031238E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B8C1B72A21F6EC0031238E /* ViewController.swift */; };
 		B2B8C1BB2A21F6EC0031238E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B8C1B92A21F6EC0031238E /* Main.storyboard */; };
-		B2B8C1BD2A21F6EE0031238E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2B8C1BC2A21F6EE0031238E /* Assets.xcassets */; };
+		B2B8C1BD2A21F6EE0031238E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2B8C1BC2A21F6EE0031238E /* Images.xcassets */; };
 		B2B8C1C02A21F6EE0031238E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B8C1BE2A21F6EE0031238E /* LaunchScreen.storyboard */; };
 		B2B8C1C92A21FA9B0031238E /* swiftgen.image.config.yml in Resources */ = {isa = PBXBuildFile; fileRef = B2B8C1C82A21FA9B0031238E /* swiftgen.image.config.yml */; };
 		B2B8C1CB2A21FC550031238E /* imageTemplate.stencil in Sources */ = {isa = PBXBuildFile; fileRef = B2B8C1CA2A21FC550031238E /* imageTemplate.stencil */; };
@@ -30,7 +30,7 @@
 		B2B8C1B52A21F6EC0031238E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B2B8C1B72A21F6EC0031238E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B2B8C1BA2A21F6EC0031238E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B2B8C1BC2A21F6EE0031238E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2B8C1BC2A21F6EE0031238E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B2B8C1BF2A21F6EE0031238E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2B8C1C12A21F6EE0031238E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2B8C1C82A21FA9B0031238E /* swiftgen.image.config.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.image.config.yml; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 				B2B8C1B52A21F6EC0031238E /* SceneDelegate.swift */,
 				B2B8C1B72A21F6EC0031238E /* ViewController.swift */,
 				B2B8C1B92A21F6EC0031238E /* Main.storyboard */,
-				B2B8C1BC2A21F6EE0031238E /* Assets.xcassets */,
+				B2B8C1BC2A21F6EE0031238E /* Images.xcassets */,
 				B2B8C1CF2A22031B0031238E /* Colors.xcassets */,
 				B2B8C1BE2A21F6EE0031238E /* LaunchScreen.storyboard */,
 				B2B8C1C12A21F6EE0031238E /* Info.plist */,
@@ -163,7 +163,7 @@
 			files = (
 				B2B8C1D02A22031B0031238E /* Colors.xcassets in Resources */,
 				B2B8C1C02A21F6EE0031238E /* LaunchScreen.storyboard in Resources */,
-				B2B8C1BD2A21F6EE0031238E /* Assets.xcassets in Resources */,
+				B2B8C1BD2A21F6EE0031238E /* Images.xcassets in Resources */,
 				B2B8C1DC2A2212E90031238E /* swiftgen.color.config.yml in Resources */,
 				B2B8C1C92A21FA9B0031238E /* swiftgen.image.config.yml in Resources */,
 				B2B8C1BB2A21F6EC0031238E /* Main.storyboard in Resources */,
