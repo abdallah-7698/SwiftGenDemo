@@ -190,7 +190,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftgen >/dev/null; then\n  swiftgen config run --config SwiftGenDemo/SwiftGen/swiftgen.image.config.yml\n  swiftgen config run --config SwiftGenDemo/SwiftGen/swiftgen.color.config.yml\n\nelse\n  echo \"warning: SwiftGen not installed, download it from https://github.com/SwiftGen/SwiftGen\"\nfi\n";
+			shellScript = "if which swiftgen >/dev/null; then\n  swiftgen config run --config SwiftGenDemo/SwiftGen/swiftgen.image.config.yml\n  swiftgen config run --config SwiftGenDemo/SwiftGen/swiftgen.color.config.yml\n \nelse\n  echo \"warning: SwiftGen not installed, download it from https://github.com/SwiftGen/SwiftGen\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

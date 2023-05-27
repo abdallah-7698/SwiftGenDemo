@@ -1,4 +1,4 @@
-// 🤖 Thi file was code-generated. Do not edit!!!
+// 🤖 This file was code-generated. Do not edit!!!
 
 import UIKit
 
