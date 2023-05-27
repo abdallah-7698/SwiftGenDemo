@@ -2,11 +2,17 @@ input_dir: ${PROJECT_DIR}/SwiftGenDemo
 output_dir: ${PROJECT_DIR}/SwiftGenDemo/SwiftGen
 xcassets:
   inputs:
-    - Assets.xcassets
     - Colors.xcassets
   outputs:
-    - templatePath: ${PROJECT_DIR}/SwiftGenDemo/SwiftGen/template.stencil
+    - templatePath: ${PROJECT_DIR}/SwiftGenDemo/SwiftGen/colorTemplate.stencil
       params:
         publicAccess: true
-      output: Assets.generated.swift
-
+      output: color.generated.swift
+xcassets:
+  inputs:
+    - Assets.xcassets
+  outputs:
+    - templatePath: ${PROJECT_DIR}/SwiftGenDemo/SwiftGen/imageTemplate.stencil
+      params:
+        publicAccess: true
+      output: image.generated.swift

@@ -13,15 +13,6 @@ import UIKit
   {% endif %}
   {% endfor %}
 {% endmacro %}
-{% macro colorsBlock assets %}
-  {% for asset in assets %}
-  {% if asset.type == "color" %}
-  static let {{asset.name|swiftIdentifier:"pretty"|lowerFirstWord|escapeReservedKeywords}}: UIColor = UIColor(named: "{{asset.value}}")!
-  {% elif asset.items %}
-  {% call colorsBlock asset.items %}
-  {% endif %}
-  {% endfor %}
-{% endmacro %}
 
 // MARK: - Images
 {{accessModifier}} extension UIImage {
@@ -30,12 +21,6 @@ import UIKit
   {% endfor %}
 }
 
-// MARK: - Colors
-{{accessModifier}} extension UIColor {
-  {% for catalog in catalogs %}
-  {% call colorsBlock catalog.assets %}
-  {% endfor %}
-}
 {% else %}
 // No assets found
 {% endif %}

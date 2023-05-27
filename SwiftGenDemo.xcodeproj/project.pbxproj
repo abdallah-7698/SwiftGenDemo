@@ -14,9 +14,11 @@
 		B2B8C1BD2A21F6EE0031238E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2B8C1BC2A21F6EE0031238E /* Assets.xcassets */; };
 		B2B8C1C02A21F6EE0031238E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B8C1BE2A21F6EE0031238E /* LaunchScreen.storyboard */; };
 		B2B8C1C92A21FA9B0031238E /* swiftgen.config.yml in Resources */ = {isa = PBXBuildFile; fileRef = B2B8C1C82A21FA9B0031238E /* swiftgen.config.yml */; };
-		B2B8C1CB2A21FC550031238E /* template.stencil in Sources */ = {isa = PBXBuildFile; fileRef = B2B8C1CA2A21FC550031238E /* template.stencil */; };
-		B2B8C1CD2A21FE730031238E /* Assets.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B8C1CC2A21FE730031238E /* Assets.generated.swift */; };
+		B2B8C1CB2A21FC550031238E /* imageTemplate.stencil in Sources */ = {isa = PBXBuildFile; fileRef = B2B8C1CA2A21FC550031238E /* imageTemplate.stencil */; };
 		B2B8C1D02A22031B0031238E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2B8C1CF2A22031B0031238E /* Colors.xcassets */; };
+		B2B8C1D62A2209910031238E /* image.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B8C1D52A2209910031238E /* image.generated.swift */; };
+		B2B8C1D82A220BCF0031238E /* colorTemplate.stencil in Sources */ = {isa = PBXBuildFile; fileRef = B2B8C1D72A220BCF0031238E /* colorTemplate.stencil */; };
+		B2B8C1DA2A220C400031238E /* color.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B8C1D92A220C400031238E /* color.generated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +31,11 @@
 		B2B8C1BF2A21F6EE0031238E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2B8C1C12A21F6EE0031238E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2B8C1C82A21FA9B0031238E /* swiftgen.config.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.config.yml; sourceTree = "<group>"; };
-		B2B8C1CA2A21FC550031238E /* template.stencil */ = {isa = PBXFileReference; lastKnownFileType = text; path = template.stencil; sourceTree = "<group>"; };
-		B2B8C1CC2A21FE730031238E /* Assets.generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.generated.swift; sourceTree = "<group>"; };
+		B2B8C1CA2A21FC550031238E /* imageTemplate.stencil */ = {isa = PBXFileReference; lastKnownFileType = text; path = imageTemplate.stencil; sourceTree = "<group>"; };
 		B2B8C1CF2A22031B0031238E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		B2B8C1D52A2209910031238E /* image.generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = image.generated.swift; sourceTree = "<group>"; };
+		B2B8C1D72A220BCF0031238E /* colorTemplate.stencil */ = {isa = PBXFileReference; lastKnownFileType = text; path = colorTemplate.stencil; sourceTree = "<group>"; };
+		B2B8C1D92A220C400031238E /* color.generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = color.generated.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +85,10 @@
 			isa = PBXGroup;
 			children = (
 				B2B8C1C82A21FA9B0031238E /* swiftgen.config.yml */,
-				B2B8C1CA2A21FC550031238E /* template.stencil */,
-				B2B8C1CC2A21FE730031238E /* Assets.generated.swift */,
+				B2B8C1CA2A21FC550031238E /* imageTemplate.stencil */,
+				B2B8C1D72A220BCF0031238E /* colorTemplate.stencil */,
+				B2B8C1D52A2209910031238E /* image.generated.swift */,
+				B2B8C1D92A220C400031238E /* color.generated.swift */,
 			);
 			path = SwiftGen;
 			sourceTree = "<group>";
@@ -183,10 +189,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2B8C1B82A21F6EC0031238E /* ViewController.swift in Sources */,
-				B2B8C1CB2A21FC550031238E /* template.stencil in Sources */,
+				B2B8C1D82A220BCF0031238E /* colorTemplate.stencil in Sources */,
+				B2B8C1CB2A21FC550031238E /* imageTemplate.stencil in Sources */,
+				B2B8C1DA2A220C400031238E /* color.generated.swift in Sources */,
+				B2B8C1D62A2209910031238E /* image.generated.swift in Sources */,
 				B2B8C1B42A21F6EC0031238E /* AppDelegate.swift in Sources */,
 				B2B8C1B62A21F6EC0031238E /* SceneDelegate.swift in Sources */,
-				B2B8C1CD2A21FE730031238E /* Assets.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -5,8 +5,6 @@ import UIKit
 
 // MARK: - Images
 public extension UIImage {
+  static let facebook: UIImage = UIImage(named: "facebook")!
 }
 
-// MARK: - Colors
-public extension UIColor {
-}
